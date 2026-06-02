@@ -36,6 +36,16 @@ If your agent has search tools (Tavily, Brave Search, etc.), it can also check t
 
 ---
 
+## Works everywhere
+
+This skillpack is just markdown files. Any AI agent that reads text can use it:
+
+Claude Code · ChatGPT/GPTs · Claude Projects · Cursor · Windsurf · Codex · Gemini · n8n · Make · Custom agents
+
+See [integration_guide.md](docs/integration_guide.md) for platform-specific setup.
+
+---
+
 ## Install (30 seconds)
 
 ```bash

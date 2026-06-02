@@ -69,6 +69,16 @@
 
 ---
 
+## 어디서든 쓸 수 있다
+
+이 스킬팩은 마크다운 파일이라 어떤 AI 에이전트에서든 쓸 수 있다:
+
+Claude Code · ChatGPT/GPTs · Claude Projects · Cursor · Windsurf · Codex · Gemini · n8n · Make · 커스텀 에이전트
+
+각 플랫폼별 설정 방법은 [integration_guide.md](docs/integration_guide.md)에서 확인.
+
+---
+
 ## 설치 (30초)
 
 ```bash
