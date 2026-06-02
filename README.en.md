@@ -54,7 +54,7 @@ Without those tools, only static (historical/cultural) risks are reviewed.
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_ORG/no-more-tankday.git
+git clone https://github.com/d-ai-1231/no-more-tankday.git
 cp -r no-more-tankday/skills/marketing-cultural-risk ./skills/
 ```
 

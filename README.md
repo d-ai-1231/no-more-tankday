@@ -61,7 +61,7 @@
 ## 설치 방법
 
 ```bash
-git clone https://github.com/YOUR_ORG/no-more-tankday.git
+git clone https://github.com/d-ai-1231/no-more-tankday.git
 cp -r no-more-tankday/skills/marketing-cultural-risk ./skills/
 ```
 
