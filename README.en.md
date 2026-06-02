@@ -45,9 +45,17 @@ It assigns a risk level:
 
 **This skillpack does not fetch live data.**
 
-If your agent environment has access to web search, news search, SNS monitoring, or trend search tools, real-time issue checking can be performed at the final approval stage.
+If your agent environment has access to search tools, real-time issue checking can be performed at the final approval stage.
 
-Without those tools, only static (historical/cultural) risks are reviewed.
+### Supported search tools
+
+| Tool | Purpose |
+|------|---------|
+| Tavily API | Web + news search (recommended) |
+| Brave Search API | Web + news search, 2,000 free queries/month |
+| Generic web search | Naver News, Daum News, etc. |
+
+Without search tools, only static (historical/cultural) risks are reviewed.
 
 ---
 
