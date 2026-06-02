@@ -86,15 +86,32 @@ git clone https://github.com/d-ai-1231/no-more-tankday.git
 cp -r no-more-tankday/skills/marketing-cultural-risk ./skills/
 ```
 
-## 사용 (복붙)
+## 설정 방법
 
-에이전트 프롬프트에 이 파일 내용을 붙여넣기만 하면 된다:
+### 방법 A: 자동 검수 (추천)
 
+`CLAUDE.md`에 한 줄 추가하면, 캠페인 콘텐츠를 만들 때마다 알아서 검수한다.
+
+```bash
+# setup/CLAUDE_SNIPPET.md 내용을 프로젝트 CLAUDE.md에 붙여넣기
 ```
-agents/final_qa_prompt.md
+
+이후 "여름 캠페인 만들어줘"라고 하면 에이전트가 카피를 만들고, 리스크까지 검수해서 결과를 같이 출력한다.
+
+### 방법 B: 수동 검수 (슬래시 커맨드)
+
+```bash
+mkdir -p .claude/commands
+cp setup/review-campaign-command.md .claude/commands/review-campaign.md
 ```
 
-3가지 사용 모드(수동 검토 / QA 게이트 / 생성→검수→수정 루프)는 [integration_guide.md](docs/integration_guide.md)에서 확인.
+이후 `/review-campaign 브랜드명`으로 언제든 검수를 호출할 수 있다.
+
+### 방법 C: 복붙
+
+별도 설정 없이 `agents/final_qa_prompt.md` 내용을 직접 붙여넣어도 된다.
+
+자세한 사용 모드(수동 검토 / QA 게이트 / 생성→검수→수정 루프)는 [integration_guide.md](docs/integration_guide.md)에서 확인.
 
 ---
 

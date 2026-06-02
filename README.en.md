@@ -53,13 +53,28 @@ git clone https://github.com/d-ai-1231/no-more-tankday.git
 cp -r no-more-tankday/skills/marketing-cultural-risk ./skills/
 ```
 
-## Use (copy-paste)
+## Setup
 
-Add this file to your QA agent prompt:
+### Option A: Auto-review (recommended)
 
+Add one line to your `CLAUDE.md` and the agent reviews every campaign automatically.
+
+```bash
+# Copy the snippet from setup/CLAUDE_SNIPPET.md into your project's CLAUDE.md
 ```
-agents/final_qa_prompt.md
+
+### Option B: Slash command
+
+```bash
+mkdir -p .claude/commands
+cp setup/review-campaign-command.md .claude/commands/review-campaign.md
 ```
+
+Then use `/review-campaign brand-name` anytime.
+
+### Option C: Copy-paste
+
+Paste `agents/final_qa_prompt.md` directly into your agent prompt.
 
 See [integration_guide.md](docs/integration_guide.md) for three usage modes.
 
