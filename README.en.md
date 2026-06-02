@@ -5,7 +5,7 @@
 Campaigns are created with good intent.
 The public decides what they mean.
 
-This skillpack finds the dangerous combinations before the public does.
+This review guide finds the dangerous combinations before the public does.
 
 ---
 
@@ -30,7 +30,7 @@ It reviews campaign names, product names, launch dates, copy, visuals, hashtags,
 
 ## Real-time issue checking
 
-This skillpack does **not** fetch live data.
+This guide does **not** fetch live data.
 
 If your agent has search tools (Tavily, Brave Search, etc.), it can also check today's news and trending issues. Without them, only static historical/cultural risks are reviewed.
 
@@ -38,7 +38,7 @@ If your agent has search tools (Tavily, Brave Search, etc.), it can also check t
 
 ## Works everywhere
 
-This skillpack is just markdown files. Any AI agent that reads text can use it:
+This review guide is just markdown files. Any AI agent that reads text can use it:
 
 Claude Code · ChatGPT/GPTs · Claude Projects · Cursor · Windsurf · Codex · Gemini · n8n · Make · Custom agents
 
